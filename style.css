@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Kohinoor Bangla', Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+body * {
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+}
+.wrapper {
+  transition: all ease-out 1s;
+}
+.first {
+  padding: 30px;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: url(./images/first-background.png) no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.first header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.social ul li {
+  margin-right: 30px;
+}
+.social ul li:last-child {
+  margin-right: 0;
+}
+.social img {
+  filter: brightness(50%);
+  transition: all 0.3s;
+}
+.social img:hover {
+  filter: brightness(100%);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 26vh; */
+}
+
+.main h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 48px;
+}
+.input-container {
+  margin-top: 36px;
+  width: 306px;
+  border-bottom: 1px solid #a0cf32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.input-container input {
+  width: 100%;
+  color: #ffffff;
+  font-weight: 300;
+  outline: none;
+  background: inherit;
+  border: none;
+  font-size: 18px;
+}
+
+.input-container input::placeholder {
+  color: #ffffff;
+}
+.down-container {
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #808080;
+}
+.down-container span {
+  text-decoration: underline;
+}
+.down-container img {
+  transition: all 0.3s;
+
+  padding: 7px 11px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.down-container img:hover {
+  filter: brightness(70%);
+}
+
+.second {
+  display: flex;
+}
+
+.second .left-side {
+  width: 66.666666%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(./images/second-background.png) no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.second .left-side h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #a0cf32;
+}
+.second .left-side p {
+  margin-top: 0;
+  font-size: 32px;
+  text-align: center;
+}
+.second .right-side {
+  padding: 50px;
+  width: 33.3333333%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #a0cf32;
+  background-size: 100vw 100vh;
+}
+.second .right-side p {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.second .right-side button {
+  transition: all 0.4s;
+  background: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 32px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.second .right-side button:hover {
+  border: 1px solid #eee;
+  color: gray;
+}
+
+.third {
+  display: flex;
+}
+
+.third .left-side {
+  padding: 50px;
+  width: 33.3333333%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #a0cf32;
+  background-size: 100vw 100vh;
+}
+
+.third .left-side button {
+  transition: all 0.4s;
+
+  background: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 32px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.third .left-side button:hover {
+  border: 1px solid #eee;
+  color: gray;
+}
+
+.third .left-side p {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.third .right-side {
+  width: 66.666666%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(./images/second-background.png) no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.third .right-side h2 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #a0cf32;
+}
+.third .right-side p {
+  margin-top: 0;
+  font-size: 32px;
+  text-align: center;
+}
